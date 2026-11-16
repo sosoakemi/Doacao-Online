@@ -39,7 +39,7 @@
                     // ========================================
                     // 4.1 CHAMADA PARA A API
                     // ========================================
-                    const response = await fetch(`${API_BASE_URL}/send-welcome`, {
+                    const response = await fetch(`${API_BASE_URL}/api/send-welcome`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',

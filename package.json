@@ -1,9 +1,9 @@
 {
   "name": "trabalho-benones",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "resend": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
